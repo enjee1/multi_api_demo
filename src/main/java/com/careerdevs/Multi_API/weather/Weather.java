@@ -1,4 +1,4 @@
-package com.careerdevs.Multi_API;
+package com.careerdevs.Multi_API.weather;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import net.minidev.json.JSONObject;
