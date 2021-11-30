@@ -14,6 +14,8 @@ public class APODController {
 
     @Autowired
     private Environment env;
+    //test comment
+     //private String URL = "https://api.nasa.gov/planetary/apod?api_key=" + env.getProperty("nasa.key");
 
     @GetMapping("/")
     public String rootRoute() {
